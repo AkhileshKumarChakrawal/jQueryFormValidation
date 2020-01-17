@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+
+
+<form>
+    <div class="form-group">
+        <label for="inputname">first name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputname" placeholder="first Name">
+            <h5 id="namecheck"></h5>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputlname">last name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputlname" placeholder="Last Name">
+            <h5 id="lnamecheck"></h5>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputaddress">Address</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputaddress" placeholder="Address">
+            <h5 id="addresscheck"></h5>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputmobile">Mobile</label>
+        <div class="col-sm-10">
+            <input type="number" class="form-control" id="inputmobile" placeholder="Mobile">
+            <h5 id="mobilecheck"></h5>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="inputdate">Date of Birth</label>
+        <div class="col-sm-10">
+            <input type="date" class="form-control" id="inputdate" placeholder="first Name">
+            <h5 id="datecheck"></h5>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="inputEmail3">Email</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputEmail3" placeholder="Email">
+            <h5 id="emailcheck"></h5>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputPassword3">Password</label>
+        <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+            <h5 id="passwordcheck"></h5>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputPassword4">Confirm Password</label>
+        <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Confirm Password">
+            <h5 id="confpasscheck"></h5>
+        </div>
+    </div>
+
+
+    <fieldset class="form-group">
+        <div class="row">
+            <legend class="col-form-label col-sm-2 pt-0">select gender</legend>
+
+            <div class="col-sm-10">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="male">
+                    <label class="form-check-label" for="gridRadios1">
+                        male
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="female">
+                    <label class="form-check-label" for="gridRadios2">
+                        female
+                    </label>
+                </div>
+                <h5 id="radiocheck"></h5>
+            </div>
+        </div>
+    </fieldset>
+
+    <div class="form-group row">
+        <div class="col-sm-2">Sports</div>
+        <div class="col-sm-10">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                    Cricket
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck2">
+                <label class="form-check-label" for="gridCheck2">
+                    Football
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck3">
+                <label class="form-check-label" for="gridCheck3">
+                    Basketball
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck4">
+                <label class="form-check-label" for="gridCheck4">
+                    Hockey
+                </label>
+            </div>
+            <h5 id="checkboxcheck"></h5>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleFormControlSelect2">skills</label>
+        <select multiple class="form-control" id="exampleFormControlSelect2">
+            <option value="java">java</option>
+            <option value="angular">angular</option>
+            <option value=".net">.net</option>
+            <option value="python">python</option>
+            <option value="mysql">mysql</option>
+        </select>
+    </div>
+    <h5 id="selectboxcheck"></h5>
+
+    <div class="form-group row">
+        <div class="col-sm-10">
+            <input type="submit" id="btnsubmit" class="btn btn-primary" value="Sign in"/>
+        </div>
+    </div>
+
+
+
+</form>
+</body>
+
+<script type="text/javascript" src="formpage.js">
+
+
+</script>
+</html>
